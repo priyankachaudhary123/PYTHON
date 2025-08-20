@@ -1,4 +1,4 @@
-paragraph = """Python is a programming language.
+paragraph = "Python is a programming language."
 words = []
 for line in paragraph.splitlines():
     words.extend(line.split())
