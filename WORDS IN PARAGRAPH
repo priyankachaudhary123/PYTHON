@@ -1,0 +1,7 @@
+paragraph = """Python is a programming language.
+words = []
+for line in paragraph.splitlines():
+    words.extend(line.split())
+
+print("Words:", words)
+print("Number of words:", len(words))
